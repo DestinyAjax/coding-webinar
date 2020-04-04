@@ -1,0 +1,252 @@
+/** the is general body style */
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: 'HKGrotesk', Arial, Helvetica, sans-serif;
+}
+
+/** this is where I declared the custom font face **/
+@font-face {
+    font-family: HKGrotesk;
+    src: url(../css/fonts/hk-grotesk/HKGrotesk-Regular.otf);
+}
+
+/*** this section covers the styles for the top navigation **/
+#navigation {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#navigation .logoWrapper img {
+    width: 150px;
+}
+
+#navigation .navWrapper a {
+    padding: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+#navigation button {
+    background: #004CE6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #00000029;
+    color: #fff;
+    margin-left: 20px;
+}
+
+/** top navigation styles ends here **/
+
+/** leader board styles starts here **/
+#leadboad .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#leadboad .content h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+#leadboad .content p {
+    color: #535353;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#leadboad .content button {
+    background: #004CE6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #00000029;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+}
+
+#leadboad .imgSec img {
+    height: 500px;
+}
+
+/** leaderboard styles ends here **/
+
+#partners {
+    padding: 40px;
+    background: #F1F5FE 0% 0% no-repeat padding-box;
+}
+
+#partners div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    z-index: 100;
+}
+
+#partners div img {
+    width: 100px;
+}
+
+/*** partners styles section ends here ***/
+
+#section-1 {
+    padding: 40px;
+}
+
+#section-1 .sectionText h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center
+}
+
+#section-1 .sectionText .col-md-3 {
+    text-align: center;
+    padding: 20px;
+}
+
+#section-1 .sectionText .col-md-3 h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#section-1 .sectionText .col-md-3 p {
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+#section-1 .sectionText .col-md-3 img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/*** the feature section ends here ***/
+
+#section-2 {
+   margin: 40px 0 4px 0;
+}
+
+#section-2 h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#section-2 .action {
+    color: #004CE6;
+}
+
+#section-2 .video {
+    background-image: url(../images/image-12.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 2;
+}
+
+#section-2 .video .lightBox {
+    background-color: rgba(255, 255, 255, 0.37);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#section-2 .video .lightBox img {
+    width: 50px;
+}
+
+/*** the video section ends here ***/
+
+#section-3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#section-3 .proposition {
+    background: #004CE6 0% 0% no-repeat padding-box;
+    border-radius: 19px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+#section-3 .proposition .con1 {
+    flex: 2;
+    background-image: url(../images/Image\ 18@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#section-3 .proposition .con2 {
+    flex: 4;
+    padding: 30px;
+}
+
+#section-3 .proposition .con2 h4 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#section-3 .proposition .con2 p {
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+#section-3 .proposition .con3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    padding: 20px;
+}
+
+#section-3 .proposition .con3 button {
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 6px #00000029;
+    border-radius: 8px;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 12px;
+    width: 200px;
+    height: 44px;
+}
+
+/** value proposition section ends here ***/
+
+#footer {
+    background: #F1F5FE 0% 0% no-repeat padding-box;
+    padding: 50px;
+}
+
+#footer .logoWrapper img {
+    width: 150px;
+}
+
+#footer .bottomWrapper a {
+    color: #000;
+    font-weight: bold;
+    padding-right: 40px;
+    display: inline-block;
+}
+
+/*** footer style section ends here ***/
+
